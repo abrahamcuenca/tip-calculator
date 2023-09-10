@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+:root {
+    --strong-cyan: hsl(172, 67%, 45%);
+    --very-dark-cyan: hsl(183, 100%, 15%);
+    --dark-grayish-cyan: hsl(186, 14%, 43%);
+    --grayish-cyan: hsl(184, 14%, 56%);
+    --light-grayish-cyan: hsl(185, 41%, 84%);
+    --very-light-grayish-cyan: hsl(189, 41%, 97%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body {
+    font-family: 'Space Mono', monospace !important;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.strong-cyan {
+    color: var(--strong-cyan) !important;
+}
+
+.very-dark-cyan {
+    color: var(--very-dark-cyan) !important;
+}
+
+.dark-grayish-cyan {
+    color: var(--dark-grayish-cyan) !important;
+}
+
+.grayish-cyan {
+    color: var(--grayish-cyan) !important;
+
+}
+
+.light-grayish-cyan {
+    color: var(--light-grayish-cyan) !important;
+}
+
+.very-light-grayish-cyan {
+    color: var(--very-light-grayish-cyan) !important;
+}
+
+.white {
+    color: var(--white) !important;
+}
+
+.strong-cyan-bg {
+    background-color: var(--strong-cyan) !important;
+}
+
+.very-dark-cyan-bg {
+    background-color: var(--very-dark-cyan) !important;
+}
+
+.dark-grayish-cyan-bg {
+    background-color: var(--dark-grayish-cyan) !important;
+}
+
+.grayish-cyan-bg {
+    background-color: var(--grayish-cyan) !important;
+
+}
+
+.light-grayish-cyan-bg {
+    background-color: var(--light-grayish-cyan) !important;
+}
+
+.very-light-grayish-cyan-bg {
+    background-color: var(--very-light-grayish-cyan) !important;
+}
+
+.white-bg {
+    background-color: var(--white) !important;
+}
+
+button {
+    font-size: 24px !important;
+    background-color: var(--very-dark-cyan);
+    color: var(--white);
+}
+
+button:active,
+button:focus,
+button:hover
+{
+    background-color: var(--strong-cyan) !important;
+}
+
+input {
+    font-size: 24px !important;
+    background-color: var(--very-light-grayish-cyan) !important;
+    text-align: right;
+    font-weight: bold;
+    border: 0 inset transparent;
+}
+
+.dollar {
+    background-image: url('images/icon-dollar.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 10px;
+}
+
+
+.people{
+    background-image: url('images/icon-person.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 10px;
+}
+
+#totalAmount,
+#tipAmount {
+    font-size: 32px!important;
+}
+
+.container {
+    max-width: 700px !important;
+}
