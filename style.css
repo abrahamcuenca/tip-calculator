@@ -8,6 +8,7 @@
     --light-grayish-cyan: hsl(185, 41%, 84%);
     --very-light-grayish-cyan: hsl(189, 41%, 97%);
     --white: hsl(0, 0%, 100%);
+    --orange: hsl(15, 36%, 63%);
 }
 
 body {
@@ -96,6 +97,20 @@ input {
     border: 0 inset transparent;
 }
 
+input:focus,
+input:focus-visible {
+    outline-color: var(--strong-cyan) !important;
+}
+.error-text {
+    color: var(--orange) !important;
+}
+
+input.error {
+    outline-color: var(--orange) !important;
+    border: 4px solid var(--orange) !important;
+}
+
+
 .dollar {
     background-image: url('images/icon-dollar.svg');
     background-repeat: no-repeat;
@@ -116,6 +131,7 @@ input {
     font-size: 32px!important;
 }
 
-.container {
-    max-width: 700px !important;
+.row.white-bg {
+    max-width: 960px !important;
+    margin: 3rem auto !important;
 }
